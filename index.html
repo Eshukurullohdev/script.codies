@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+    html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    span {
+        width: 100px;
+        height: 100px;
+        border: 5px solid red;
+        transition: 0.3s all ease;
+    }
+    .active {
+        background-color: blue;
+        transform: translateX(-400px) rotate(360deg);
+        transition: 0.3s all ease;
+    }
+    .active1 {
+        background-color: blue;
+        transform: translateY(-200px) rotate(360deg);
+        transition: 0.3s all ease;
+    }
+    .active2 {
+        background-color: blue;
+        transform: translateX(400px) rotate(360deg);
+        transition: 0.3s all ease;
+    }
+</style>
+<body>
+    
+   <div class="wrapper">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+        <span class="span4"></span>
+        <span class="span5"></span>
+        <span class="span6"></span>
+   </div>
+   
+  
+    <script src="/key.js"></script>
+</body>
+</html>
